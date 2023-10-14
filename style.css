@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Poppins:ital,wght@0,300;0,400;0,600;1,400;1,900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
+}
+
+body,html{
+    height: 100vh;
+    width: 100%;
+    background-color: #6665ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 1rem 2.5rem;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.7)  ;
+}
+
+.message-form{
+    padding: 20px 0;
+}
+
+#message-input{
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #6665ee;
+    width: 525px;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#message-display{
+    padding-bottom: 0.7rem;
+}
+
+#message-btn{
+    border: none;
+    color: #ffffff;
+    background-color: #6665ee;
+    padding: 2%;
+    font-size: 15px;
+}
+
+#message {
+    color: #4cd038;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 620px) {
+    .container{
+        width: 90%;
+        margin: 10px;
+    }
+    #message-input{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+        
+}
